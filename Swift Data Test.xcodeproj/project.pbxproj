@@ -15,6 +15,7 @@
 		B56F14312A55A4620039A0C8 /* Swift_Data_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F14302A55A4620039A0C8 /* Swift_Data_TestTests.swift */; };
 		B56F143B2A55A4620039A0C8 /* Swift_Data_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F143A2A55A4620039A0C8 /* Swift_Data_TestUITests.swift */; };
 		B56F143D2A55A4620039A0C8 /* Swift_Data_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F143C2A55A4620039A0C8 /* Swift_Data_TestUITestsLaunchTests.swift */; };
+		B56F144A2A55A5910039A0C8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F14492A55A5910039A0C8 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B56F14362A55A4620039A0C8 /* Swift Data TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Data TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56F143A2A55A4620039A0C8 /* Swift_Data_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Data_TestUITests.swift; sourceTree = "<group>"; };
 		B56F143C2A55A4620039A0C8 /* Swift_Data_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Data_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B56F14492A55A5910039A0C8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B56F14212A55A4620039A0C8 /* Assets.xcassets */,
 				B56F14262A55A4620039A0C8 /* Item.swift */,
 				B56F14232A55A4620039A0C8 /* Preview Content */,
+				B56F14492A55A5910039A0C8 /* DataService.swift */,
 			);
 			path = "Swift Data Test";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				B56F14202A55A4610039A0C8 /* ContentView.swift in Sources */,
 				B56F14272A55A4620039A0C8 /* Item.swift in Sources */,
 				B56F141E2A55A4610039A0C8 /* Swift_Data_TestApp.swift in Sources */,
+				B56F144A2A55A5910039A0C8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

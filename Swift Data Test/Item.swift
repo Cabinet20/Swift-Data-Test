@@ -1,18 +1,25 @@
-//
-//  Item.swift
-//  Swift Data Test
-//
-//  Created by Bren Gunning on 05/07/2023.
-//
-
 import Foundation
 import SwiftData
 
 @Model
 final class Item {
-    var timestamp: Date
+    @Attribute(.unique)
+    var name: String
+
+    @Relationship(.nullify)
+    var children: [ItemChild]?
     
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+    init(name: String, children: [ItemChild]? = nil) {
+        self.name = name
+        self.children = children
+    }
+}
+
+@Model
+final class ItemChild {
+    @Attribute(.unique)
+    var name: String
+    init(name: String) {
+        self.name = name
     }
 }

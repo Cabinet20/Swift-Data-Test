@@ -1,10 +1,3 @@
-//
-//  Swift_Data_TestTests.swift
-//  Swift Data TestTests
-//
-//  Created by Bren Gunning on 05/07/2023.
-//
-
 import XCTest
 @testable import Swift_Data_Test
 

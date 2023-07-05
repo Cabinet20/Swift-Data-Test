@@ -1,10 +1,3 @@
-//
-//  Swift_Data_TestApp.swift
-//  Swift Data Test
-//
-//  Created by Bren Gunning on 05/07/2023.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -15,6 +8,12 @@ struct Swift_Data_TestApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: [Item.self, ItemChild.self])
+    }
+    
+    
+    init() {
+        let dataService = DataService()
+        dataService.LoadData()
     }
 }

@@ -1,10 +1,3 @@
-//
-//  Swift_Data_TestUITestsLaunchTests.swift
-//  Swift Data TestUITests
-//
-//  Created by Bren Gunning on 05/07/2023.
-//
-
 import XCTest
 
 final class Swift_Data_TestUITestsLaunchTests: XCTestCase {
